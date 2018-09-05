@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.header, .logo-container, .logo, .nav, .menu {
+  background-color: white;
+}
+
+.header {
+  height: 50px;
+}
+
+.logo-container {
+  display: block;
+  float: left;
+}
+
+.logo {
+  width: 125px;
+  height: 45px;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  padding: 14px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  text-align: center;
+  color: white;
+  background: radial-gradient( circle 995.7px at 10% 20%,  rgba(37,6,36,1) 0%, #bbb 90% );
+}
+
+h1 {
+  padding-top: 75px;
+  padding-bottom: 50px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 3px whitesmoke;
+}
+
+.line {
+  padding-top: 0px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 900px;
+  color: rgb(245, 201, 6);
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.beach-image {
+  height: 400px;
+  width: 600px;
+  margin-top: 30px;
+}
+
+.elephant-image {
+  height: 400px;
+  width: 650px;
+}
+
+.latest-content {
+  text-align: center;
+  height: 250px;
+  background: radial-gradient( circle 995.7px at 10% 20%,  rgba(37,6,36,1) 0%, #bbb 90% );
+}
+
+h2 {
+  padding: 30px;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 1px whitesmoke;
+}
+
+span {
+  margin-right: 5px;
+  font-size: 30px;
+  font-weight: 900px;
+  color: rgb(245, 201, 6);
+  text-shadow: 1px 1px 1px rgb(245, 201, 6);;
+}
+
+.latest-items {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+.menu-container {
+  background-color: lightblue;
+  height: 100vh;
+}
